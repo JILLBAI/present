@@ -1,8 +1,36 @@
 body{
     background: url(./img/signimg/bg1920.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  .info{
+  #logo{
+    margin: 100px auto 0;
+  }
+  .col-6{
     width: 900px;
-    margin: 0 auto;
+    margin: 100px auto 0;
+    padding: 100px;
     position: absolute;
+    
   }
+  @media (min-width: 480px) { 
+        background-image: url(./img/signimg/bg480.png);
+        .container-sm{
+            src: url(./img/signimg/logo-03.png);
+        }
+     }
+    
+    @media (min-width: 960px) { 
+        .container-lg{
+            background-image: url(./img/signimg/bg960.png);
+        }
+    }
+    
+    @media (min-width: 1920px) { 
+        .container-xl{
+            background-image: url(./img/signimg/bg1920.png);
+            src: url(./img/signimg/logo-01.png);
+            src: url(./img/signimg/1btn-18old.png);
+        }
+     }
+    

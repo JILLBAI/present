@@ -5,3 +5,16 @@
     box-sizing: border-box;
     background-image: url(./img/signimg/bg1920.png);
 }
+
+#back{
+    position: center;
+}
+.jumbotron{
+    background:url(./img/signimg/1btn-18old.png) no-repeat center center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: center;
+}

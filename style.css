@@ -7,4 +7,20 @@
           box-sizing: border-box;
   background-image: url(./img/signimg/bg1920.png);
 }
+
+#back {
+  position: center;
+}
+
+.jumbotron {
+  background: url(./img/signimg/1btn-18old.png) no-repeat center center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  position: center;
+}
 /*# sourceMappingURL=style.css.map */

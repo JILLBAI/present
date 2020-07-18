@@ -8,10 +8,11 @@ body {
   margin: 100px auto 0;
 }
 
-.col-6 {
+.col-sm-6 {
   width: 900px;
   margin: 100px auto 0;
   padding: 100px;
-  position: absolute;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 /*# sourceMappingURL=style.css.map */

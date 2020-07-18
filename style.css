@@ -4,15 +4,18 @@ body {
   background-repeat: no-repeat;
 }
 
-#logo {
-  margin: 100px auto 0;
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.col-sm-6 {
-  width: 900px;
-  margin: 100px auto 0;
-  padding: 100px;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+.row.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 300px auto 500px;
 }
 /*# sourceMappingURL=style.css.map */

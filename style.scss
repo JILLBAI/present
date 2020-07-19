@@ -1,12 +1,21 @@
-@mixin desktop-box{
-  width: 1200px;
-  margin: 0 auto;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+// @mixin desktop-box{
+//   width: 1200px;
+//   margin: 0 auto;
+// }
+
 
 body{
     background: url(./img/signimg/bg1920.png);
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: center;
   }
   
   .row {
@@ -15,9 +24,6 @@ body{
     &.justify-content-center {
       justify-content: center;
       margin: 300px auto 500px;
-      
     }
   }
   
- 
-    

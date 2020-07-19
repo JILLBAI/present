@@ -92,4 +92,8 @@ body {
   transition: width 350ms ease-in-out;
   width: 70%;
 }
+
+#stop {
+  padding: 0;
+}
 /*# sourceMappingURL=style.css.map */
